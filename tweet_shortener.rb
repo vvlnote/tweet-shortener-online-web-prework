@@ -13,7 +13,7 @@ def dictionary(str)
     "at" => "@",
     "and" => "&"
   }
-  str = str.lower
+  str = str.downcase
   if dictionary_hash.keys.include?(str)
     dictionary_hash[str]
   else
