@@ -41,3 +41,7 @@ def bulk_tweet_shortener (tweet_arr)
     puts "#{shortened_str}"
   end
 end
+
+def selectivew_tweet_shortener(tweet_str)
+  
+end
