@@ -17,6 +17,7 @@ def dictionary(str)
     dictionary_hash[str]
   else
     nil
+  end
 end
 
 def word_substituter (tweet_str)
