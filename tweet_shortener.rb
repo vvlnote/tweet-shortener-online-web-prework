@@ -20,4 +20,15 @@ def dictionary(str)
 end
 
 def word_substituter (tweet_str)
+  str_arr = tweet_str.split(" ")
+  short_arr = []
+  str_arr.each do |str|
+      temp = dictionary_hash(str)
+      if temp != nil
+        short_arr << temp
+      else
+        short_arr << str
+      end
+  end
+  short_str = short_arr.join(" ")
 end
