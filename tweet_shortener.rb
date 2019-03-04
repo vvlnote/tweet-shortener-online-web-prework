@@ -13,7 +13,7 @@ def dictionary(str)
     "at" => "@",
     "and" => "&"
   }
-  if dictionary_hash.include?(str)
+  if dictionary_hash.keys.include?(str)
     dictionary_hash[str]
   else
     nil
