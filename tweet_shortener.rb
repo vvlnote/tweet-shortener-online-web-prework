@@ -13,7 +13,10 @@ def dictionary(str)
     "at" => "@",
     "and" => "&"
   }
-  
+  if dictionary_hash.include?(str)
+    dictionary_hash[str]
+  else
+    nil
 end
 
 def word_substituter (tweet_str)
